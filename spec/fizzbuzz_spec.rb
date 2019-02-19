@@ -46,3 +46,11 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(45)).to eq 'fizzbuzz'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns 4, 7 and 11 when passed 4, 7 and 11 respectively' do
+    expect(fizzbuzz(4)).to eq '4'
+    expect(fizzbuzz(7)).to eq '7'
+    expect(fizzbuzz(11)).to eq '11'
+  end
+end
