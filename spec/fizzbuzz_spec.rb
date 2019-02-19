@@ -60,3 +60,11 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(0)).to eq '0'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns fizz, buzz and fizzbuzz when passed -3, -5 and -15 respectively' do
+    expect(fizzbuzz(-3)).to eq 'fizz'
+    expect(fizzbuzz(-5)).to eq 'buzz'
+    expect(fizzbuzz(-15)).to eq 'fizzbuzz'
+  end
+end
